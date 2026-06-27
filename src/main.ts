@@ -17,9 +17,9 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   </div>
 
   <div style="display: flex; gap: 1rem">
-    <button id="res" type="button" class="counter"></button>
+    <button id="subtract" type="button" class="counter"></button>
     <button id="zero" type="button" class="counter"></button>
-    <button id="sum" type="button" class="counter"></button>
+    <button id="add" type="button" class="counter"></button>
   </div>
   <div >
   <p id="resultado"></p>
@@ -66,8 +66,8 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
 `;
 
 setupCounter(
-  document.querySelector<HTMLButtonElement>("#sum")!,
-  document.querySelector<HTMLButtonElement>("#res")!,
+  document.querySelector<HTMLButtonElement>("#add")!,
+  document.querySelector<HTMLButtonElement>("#subtract")!,
   document.querySelector<HTMLButtonElement>("#zero")!,
   document.querySelector<HTMLElement>("#resultado")!,
 );
