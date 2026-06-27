@@ -7,7 +7,7 @@ export function setupCounter(
 ) {
   let counter = 0;
   add.innerHTML = "+1";
-  subtract.innerHTML = "-1";
+  subtract.innerHTML = "";
   zero.innerHTML = "0";
 
   label.innerHTML = `Count is 0`;
