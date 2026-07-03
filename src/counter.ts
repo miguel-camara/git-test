@@ -5,14 +5,12 @@ export function setupCounter(
   zero: HTMLButtonElement,
   label: HTMLElement,
 ) {
-  console.log("Esto es una prueba de test");
+  // Test
 
   let counter = 0;
   add.innerHTML = "+1";
   subtract.innerHTML = "";
   zero.innerHTML = "0";
-
-  console.log("Main");
 
   label.innerHTML = `El contador es 0`;
   const setCounter = (count: number) => {
