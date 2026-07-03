@@ -10,7 +10,7 @@ export function setupCounter(
   subtract.innerHTML = "";
   zero.innerHTML = "0";
 
-  label.innerHTML = `Count is 0`;
+  label.innerHTML = `El contador es 0`;
   const setCounter = (count: number) => {
     counter = count;
     label.innerHTML = `Count is ${counter}`;
