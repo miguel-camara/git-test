@@ -12,6 +12,8 @@ export function setupCounter(
   subtract.innerHTML = "";
   zero.innerHTML = "0";
 
+  console.log("Console.log main");
+
   label.innerHTML = `El contador es 0`;
   const setCounter = (count: number) => {
     counter = count;
