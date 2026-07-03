@@ -5,6 +5,8 @@ export function setupCounter(
   zero: HTMLButtonElement,
   label: HTMLElement,
 ) {
+  console.log("Esto es una prueba");
+
   let counter = 0;
   add.innerHTML = "+1";
   subtract.innerHTML = "";
